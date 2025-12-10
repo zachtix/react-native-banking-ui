@@ -1,0 +1,38 @@
+export default [
+  {
+    id: "t1",
+    title: "Salary",
+    date: "Dec 1, 2025",
+    amount: "+฿45,000",
+    type: "income",
+    icon: "cash-outline",
+    bg: "#06b6d4",
+  },
+  {
+    id: "t2",
+    title: "Starbucks",
+    date: "Dec 2, 2025",
+    amount: "-฿150",
+    type: "expense",
+    icon: "cafe-outline",
+    bg: "#ef4444",
+  },
+  {
+    id: "t3",
+    title: "Groceries",
+    date: "Dec 3, 2025",
+    amount: "-฿1,200",
+    type: "expense",
+    icon: "cart-outline",
+    bg: "#f97316",
+  },
+  {
+    id: "t4",
+    title: "Investment",
+    date: "Dec 4, 2025",
+    amount: "+฿2,500",
+    type: "income",
+    icon: "trending-up-outline",
+    bg: "#10b981",
+  },
+];
