@@ -1,50 +1,81 @@
-# Welcome to your Expo app 👋
+# 📱 Banking UI App -- React Native Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+โปรเจคนี้เป็นงาน **ฝึกการออกแบบ UI ด้วย React Native + Expo**
+โดยจำลองหน้าตาแอปธนาคาร (Banking App) ที่มีทั้งหมด 4 หน้า ได้แก่ Home,
+Cards, Stats และ Profile
 
-## Get started
+------------------------------------------------------------------------
 
-1. Install dependencies
+## 🚀 Tech Stack
 
-   ```bash
-   npm install
-   ```
+-   React Native
+-   Expo
+-   React Navigation (Stack + Bottom Tabs)
+-   Expo Vector Icons
 
-2. Start the app
+------------------------------------------------------------------------
 
-   ```bash
-   npx expo start
-   ```
+## 📂 โครงสร้างหน้าตาของแอป
 
-In the output, you'll find options to open the app in a
+แอปนี้ประกอบด้วย 4 หน้า:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 1️⃣ HomeScreen
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+-   แสดงยอดเงิน (Balance)
+-   แสดงรายการเดินบัญชีล่าสุด
+-   แสดงการ์ดของผู้ใช้
 
-## Get a fresh project
+### 2️⃣ CardsScreen
 
-When you're ready, run:
+-   แสดงบัตรทั้งหมดของผู้ใช้ เช่น Credit / Debit
+-   UI การ์ดแบบสวยงาม
 
-```bash
-npm run reset-project
+### 3️⃣ StatsScreen
+
+-   แสดงสถิติการใช้เงิน เช่น รายรับ รายจ่าย
+-   สามารถใส่กราฟเพิ่มเติมในภายหลังได้
+
+### 4️⃣ ProfileScreen
+
+-   ข้อมูลโปรไฟล์ผู้ใช้
+-   ปุ่มตั้งค่าต่าง ๆ
+
+------------------------------------------------------------------------
+
+## 🧭 การติดตั้งโปรเจค
+
+``` sh
+npm install
+npx run start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+------------------------------------------------------------------------
 
-## Learn more
+## 🗂 Folder Structure (ตัวอย่าง)
 
-To learn more about developing your project with Expo, look at the following resources:
+    /assets
+    /components
+    /screens
+      ├── HomeScreen.tsx
+      ├── CardsScreen.tsx
+      ├── StatsScreen.tsx
+      └── ProfileScreen.tsx
+    /navigation
+    App.tsx
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+------------------------------------------------------------------------
 
-## Join the community
+## 🖼 ตัวอย่างหน้าจอ
 
-Join our community of developers creating universal apps.
+> เพิ่ม Screenshot ได้ในภายหลัง
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<img src="./assets/images/Screenshot_1765382876.png" width="250" />
+
+------------------------------------------------------------------------
+
+## 🎯 จุดประสงค์ของโปรเจค
+
+-   ฝึกทำ UI 
+-   ฝึก Navigation หลายหน้า
+-   ฝึกการจัด layout ด้วย Flexbox
+-   ฝึกสร้าง component แบบแยกใช้ซ้ำได้
