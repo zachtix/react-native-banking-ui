@@ -31,7 +31,7 @@ export default function Index() {
 }
 
 const styles = StyleSheet.create({
-  safe: { flex: 1, backgroundColor: "#0f1724" },
+  safe: { flex: 1, backgroundColor: "#0d172a" },
   // safe: { flex: 1, backgroundColor: "white" },
   container: { flex: 1 },
   scroll: { padding: 20, paddingBottom: 40 },
