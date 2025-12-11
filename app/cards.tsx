@@ -1,4 +1,4 @@
-import CardItem from "@/components/CardBalance";
+import CardItem from "@/components/CardItem";
 import React from "react";
 import { ScrollView, StyleSheet, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -10,8 +10,20 @@ const cards = () => {
         <Text style={styles.title}>My Cards</Text>
 
         {/* Example Card */}
-        <CardItem />
-        <CardItem />
+        <CardItem
+          name="Visa Platinum"
+          icon="cc-visa"
+          cardNumber="1234"
+          balance={24500}
+          colors={["#0ea5e9", "#0369a1"]}
+        />
+        <CardItem
+          name="Master Card"
+          icon="cc-mastercard"
+          cardNumber="1234"
+          balance={24500}
+          colors={["#d72d2dff", "#e90e0eff"]}
+        />
       </SafeAreaView>
     </ScrollView>
   );
