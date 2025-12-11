@@ -67,9 +67,10 @@ npx run start
 
 ## 🖼 ตัวอย่างหน้าจอ
 
-> เพิ่ม Screenshot ได้ในภายหลัง
-
-<img src="./assets/images/Screenshot_1765382876.png" width="250" />
+<img src="./assets/images/Screenshot_1765446279.png" width="250" />
+<img src="./assets/images/Screenshot_1765446239.png" width="250" />
+<img src="./assets/images/Screenshot_1765446243.png" width="250" />
+<img src="./assets/images/Screenshot_1765446245.png" width="250" />
 
 ------------------------------------------------------------------------
 
